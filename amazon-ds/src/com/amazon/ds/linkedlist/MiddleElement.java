@@ -70,10 +70,12 @@ public class MiddleElement {
 			System.out.println("Enter the number of elements in the list");
 			n=in.nextInt();
 			for (int i=n; i>0; --i) 
-			{ 
-				llist.push(i); 
-				llist.printList(); 
-				llist.printMiddle(); 
+			{   System.out.println("Enter the elment you wat to insert in the list :");
+			    int q=in.nextInt();
+				llist.push(q); 
+				
 			} 
+			llist.printList(); 
+			llist.printMiddle(); 
 		} 
 }
