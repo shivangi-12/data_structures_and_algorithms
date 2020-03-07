@@ -1,4 +1,4 @@
-package com.amzon.ds.strings;
+package com.amazon.ds.strings;
 
 import java.util.Scanner;
 
